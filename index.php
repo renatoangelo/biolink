@@ -2,12 +2,15 @@
 
 $whatsapp = 'btns/whatsapp.html';
 $email = 'btns/email.html';
+$linkedin = 'btns/linkedin.html';
 
-$facebook = 'btns/facebook.html';
+
+//$facebook = 'btns/facebook.html';
 $instagram = 'btns/instagram.html';
 // $youtube = 'btns/youtube.html';
 // $tiktok = 'btns/tiktok.html';
 //$telegram = 'btns/telegram.html';
+$twitter = 'btns/twitter.html';
 
 ?>
 
@@ -19,7 +22,27 @@ $instagram = 'btns/instagram.html';
     <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css"> -->
     <link rel="stylesheet" href="assets/css/all.min.css">
     <link rel="stylesheet" href="assets/css/style.css">
-    <title>Bio - TravelVip</title>
+    <title>Bio - Renato Angelo - Links Úteis</title>
+
+    <meta name="description" content="Renato Angelo - Software Developer - Chief Marketing Office - Entrepreneur">
+    <meta name="author" content="Renato Angelo">
+    <meta name="msapplication-TileImage" content="https://renatoangelo.com.br/bio/assets/img/thumb.jpg" />
+    <meta property="og:image" content="https://renatoangelo.com.br/bio/assets/img/thumb.jpg">
+    <meta property="og:image:type" content="image/jpg">
+    <meta property="og:description" content="Links Úteis para Renato Angelo - Software Developer - Chief Marketing Office - Entrepreneur">
+    <meta property="og:url" content="https://renatoangelo.com.br/" >
+    <meta property="og:site_name" content="Renato Angelo - Software Sênior Developer" >
+    <meta property="og:title" content="Renato Angelo - Software Sênior Developer" >
+
+
+    <link rel="manifest" href="assets/img/favicon.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="assets/img/favicon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="assets/img/favicon.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="assets/img/favicon.png">
+
+
+
+
 </head>
 <body>
 
@@ -33,6 +56,8 @@ $instagram = 'btns/instagram.html';
             <?php (isset($whatsapp))? include($whatsapp) : '';?>
 
             <?php (isset($email))? include($email) : '';?>
+
+            <?php (isset($linkedin))? include($linkedin) : '';?>
 
         </div>
 
@@ -48,6 +73,8 @@ $instagram = 'btns/instagram.html';
             <?php (isset($tiktok))? include($tiktok) : '';?>
 
             <?php (isset($telegram))? include($telegram) : '';?>
+
+            <?php (isset($twitter))? include($twitter) : '';?>
 
         </div>
 
